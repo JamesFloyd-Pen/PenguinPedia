@@ -4,17 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3F51B5"
     tools:context=".SplashActivity">
 
     <TextView
         android:id="@+id/SPLASH"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SPLASHTEST!"
-        android:textColor="#2196F3"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
+        android:text="PenguinPedia"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
+        android:textAlignment="center"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="291dp"
+        android:layout_height="307dp"
+        app:layout_constraintBottom_toTopOf="@+id/SPLASH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/templogoupdate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
