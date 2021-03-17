@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">PenguinPedia</string>
+
+    <!-- List of Penguin Species -->
+    <!-- Genus: Aptenodytes -->
     <string name="emperor_penguin">Emperor Penguin</string>
+    <string name="king_penguin">King Penguin</string>
+    <!-- Genus: Pygoscelis -->
+    <string name="adelie_penguin">Adélie Penguin</string>
+    <string name="chinstrap_penguin">Chinstrap Penguin</string>
+    <string name="gentoo_penguin">Gentoo Penguin</string>
+    <!-- Genus: Eudyptula -->
+    <string name="little_penguin"> Little Penguin</string>
+    <string name="white_flippered_penguin"> White-Flippered Penguin</string>
+    <!-- Genus: Spheniscus -->
+    <string name="magellanic_penguin"> Magellanic Penguin</string>
+    <string name="humboldt_penguin"> Humboldt Penguin</string>
+    <string name="galapagos_penguin"> Galápagos penguin</string>
+    <string name="african_penguin"> African Penguin</string>
+    <!-- Genus: Megadyptes  -->
+    <string name="Yellowedeyed_penguin">Yellow-Eyed Penguin</string>
+    <!-- Genus: Eudyptes -->
+    <string name="fiordland_penguin">Fiordland Penguin</string>
+    <string name="snares_penguin">Snares Penguin</string>
+    <string name="erect_crest_penguin">Erected-Crest Penguin</string>
+    <string name="rockhopper_penguin">Rockhopper Penguin</string>
+    <string name="royal_penguin">Royal Penguin</string>
+    <string name="macaroni_penguin">Macaroni Penguin</string>
+
 </resources>

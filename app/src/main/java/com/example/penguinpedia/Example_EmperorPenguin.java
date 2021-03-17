@@ -16,4 +16,20 @@ public class Example_EmperorPenguin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_example__emperor_penguin);
     }
+
+    /*
+    TODO
+    *Add general information
+
+    *Locations of Zoos with Emperor Penguins
+    1. Japan
+       -Wakayama Adventure
+       -Port of Nagoya Public Aquarium
+    2. North America
+        - SeaWorld San Diego
+    3. China
+        - Nanjing Underwater World
+        - Laohutan Ocean Park
+        - Sun Asia Ocean World
+     */
 }

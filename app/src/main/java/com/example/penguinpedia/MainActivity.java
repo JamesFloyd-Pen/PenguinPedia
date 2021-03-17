@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
@@ -11,23 +12,29 @@ public class MainActivity extends AppCompatActivity {
 
     //Emperor penguin building prototype
     Button btn;
+    int[] imageArray = {R.drawable.mainpenguinactivityimage};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button)findViewById(R.id.EPbtn);
+        btn = (Button) findViewById(R.id.EPbtn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 Intent emperorPenguinIntent = new Intent(MainActivity.this, Example_EmperorPenguin.class);
                 startActivity(emperorPenguinIntent);
             }
-
-
         });
     }
 
+    private void animationViewSlideShow(){
+        //Hands slide show
+        Handler handler = new Handler();
+        //Run me
+        //https://stackoverflow.com/questions/21625255/automatically-changing-images-in-imageview
+    }
 
     /*
     TODO
