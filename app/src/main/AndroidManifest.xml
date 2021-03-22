@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PenguinPedia">
+        <activity android:name=".DonationActivity"></activity>
         <activity android:name=".AutoPenguinGenerateActivity" />
         <activity android:name=".Example_EmperorPenguin" />
         <activity android:name=".SplashActivity">
@@ -19,7 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-
     </application>
 
 </manifest>
