@@ -44,6 +44,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
             <TextView
                 android:id="@+id/Description"
                 android:layout_width="match_parent"
@@ -78,12 +84,6 @@
                 android:layout_marginBottom="5dp"
                 android:gravity="center"
                 android:text="Emperor penguins are marine birds that lives exclusively in the Antarctic. Winter temperatures there range from -40 to 0°C, with wind chills reaching -60°C. During their breeding season, emperor penguins congregate on dense stable ice attached to the coastline of Antarctica. About 7 to 8 weeks after juveniles hatch, they leave their colonies and migrate toward open ocean areas. Outside of breeding season, they spend most of their time in seasonally-packed ice zones, where open sea is easily available for foraging. Colonies migrate to ice shelves during breeding season, where ice cliffs and icebergs serve as protection against cross winds." />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/arrow_down_float" />
 
             <Button
                 android:id="@+id/donationButton"
