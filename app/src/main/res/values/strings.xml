@@ -26,5 +26,6 @@
     <string name="rockhopper_penguin">Rockhopper Penguin</string>
     <string name="royal_penguin">Royal Penguin</string>
     <string name="macaroni_penguin">Macaroni Penguin</string>
+    <string name="title_activity_penguin_map_location">Map</string>
 
 </resources>
