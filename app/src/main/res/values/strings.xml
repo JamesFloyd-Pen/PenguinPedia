@@ -28,4 +28,6 @@
     <string name="macaroni_penguin">Macaroni Penguin</string>
     <string name="title_activity_penguin_map_location">Map</string>
 
+    <string name="google_api_key"> AIzaSyDENSnvenHl2rJ4t2cS2la-sdlFXEJFTBU</string>
+
 </resources>
