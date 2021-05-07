@@ -45,6 +45,7 @@ public class PenguinMapLocationActivity extends FragmentActivity implements OnMa
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-34, 151);
+        LatLng SeaWorldSD = new LatLng(32,117);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
@@ -63,6 +64,7 @@ public class PenguinMapLocationActivity extends FragmentActivity implements OnMa
         - Sun Asia Ocean World
 
         To known Colonies in the South Pole
+
 */
 
 
