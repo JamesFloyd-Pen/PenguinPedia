@@ -52,10 +52,18 @@
 
             <TextView
                 android:id="@+id/Description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="383dp"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="6dp"
                 android:gravity="center"
-                android:text="Emperor Penguins are the largest penguin species in the world. " />
+                android:text="The Emperor Penguin is the largest known penguin species in the world. They dwell in Antarctica and are famous for enduring the winters of Antarctica during its breeding session.
+ " />
 
             <TextView
                 android:id="@+id/Location"
@@ -68,11 +76,11 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Habitat"
+                android:text="Habitat: Antarctica"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/LocationDescription"
+                android:id="@+id/population"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
@@ -82,8 +90,106 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:gravity="center"
-                android:text="Emperor penguins are marine birds that lives exclusively in the Antarctic. Winter temperatures there range from -40 to 0°C, with wind chills reaching -60°C. During their breeding season, emperor penguins congregate on dense stable ice attached to the coastline of Antarctica. About 7 to 8 weeks after juveniles hatch, they leave their colonies and migrate toward open ocean areas. Outside of breeding season, they spend most of their time in seasonally-packed ice zones, where open sea is easily available for foraging. Colonies migrate to ice shelves during breeding season, where ice cliffs and icebergs serve as protection against cross winds." />
+                android:text="Population: 595,000 "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Height: 144cm "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Weight: 22.7 kg - 45.4 kg "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/diveDepth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Dive Depth: 585 m "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/swimSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Swim Speed: 11 KM "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Diet: Fish, Krill, and Squid "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/predators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Predators: Leopard Seals, Orcas, Petrel "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/eggs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Eggs Laid: One "
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/donationButton"
