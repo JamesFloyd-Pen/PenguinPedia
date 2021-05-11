@@ -7,6 +7,9 @@
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -27,11 +30,14 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_api_key" />
+            android:value="google_api_key" />
 
         <activity
             android:name=".PenguinMapLocationActivity"
-            android:label="@string/title_activity_penguin_map_location"></activity>
+            android:label="@string/title_activity_penguin_map_location">
+
+
+        </activity>
         <activity android:name=".DonationActivity" />
         <activity android:name=".AutoPenguinGenerateActivity" />
         <activity android:name=".Example_EmperorPenguin" />
@@ -41,6 +47,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".MainActivity" />
     </application>
