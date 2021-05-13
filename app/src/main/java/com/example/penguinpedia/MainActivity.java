@@ -8,34 +8,34 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //Emperor penguin building prototype
-    Button btn;
     int[] imageArray = {R.drawable.mainpenguinactivityimage};
     //New btn array prototype
-    private List<Button> btns;
+    private List<Button> penguin_buttons;
     private static final int[] btn_id = {
             R.id.EPbtn, //Button One: Emperor Penguin
             R.id.KPbtn, //Button Two: King Penguin
+            //R.id.ADbtn,
+            //R.id.Cbtn,
+            //
+    // https://stackoverflow.com/questions/15642104/array-of-buttons-in-android
     };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.EPbtn);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent emperorPenguinIntent = new Intent(MainActivity.this, Example_EmperorPenguin.class);
-                startActivity(emperorPenguinIntent);
-            }
-        });
+        penguin_buttons = new ArrayList<Button>();
+        for (int id : btn_id) {
+            Button button = (Button) findViewById(id);
+            button.setOnClickListener(this);
+            penguin_buttons.add(button);
+        }
     }
 
     private void animationViewSlideShow(){
@@ -43,6 +43,21 @@ public class MainActivity extends AppCompatActivity {
         Handler handler = new Handler();
         //Run me
         //https://stackoverflow.com/questions/21625255/automatically-changing-images-in-imageview
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.EPbtn:
+                Intent emperorPenguinIntent = new Intent(MainActivity.this, Example_EmperorPenguin.class);
+                startActivity(emperorPenguinIntent);
+                break;
+
+            case R.id.KPbtn:
+                Intent generatePenguinIntent = new Intent(MainActivity.this, AutoPenguinGenerateActivity.class);
+                startActivity(generatePenguinIntent);
+                break;
+        }
     }
 
     /*
