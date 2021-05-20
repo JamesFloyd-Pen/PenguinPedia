@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33702067429",
+    "project_id": "penguinpediadatabase",
+    "storage_bucket": "penguinpediadatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33702067429:android:84f8772dac55c21a40a80c",
+        "android_client_info": {
+          "package_name": "com.example.penguinpedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33702067429-130kuvajrd26mq9krg2112buc5rar0t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvpqWN-xwK3cFt-VMM7RlR3W6tuJD04C8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33702067429-130kuvajrd26mq9krg2112buc5rar0t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
