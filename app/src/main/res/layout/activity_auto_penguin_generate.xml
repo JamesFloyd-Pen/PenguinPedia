@@ -21,7 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
                 android:background="#3F51B5"
-                tools:srcCompat="@tools:sample/avatars" />
+                app:srcCompat="@drawable/king_penguin_and_chicks"
+                tools:srcCompat="@drawable/king_penguin_and_chicks" />
             <View
                 android:id="@+id/divider1"
                 android:layout_width="match_parent"
