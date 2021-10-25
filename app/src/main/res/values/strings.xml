@@ -32,7 +32,30 @@
 
     <!--Layout-->
     <string name="donate">Donate</string>
+    <string name="egg_laid_one">Eggs Laid: One </string>
+    <string name="egg_laid_two">Eggs Laid: Two </string>
+    <string name="large_penguin_diet">Diet: Fish, Krill, and Squid </string>
     <string name="large_penguin_predators">Predators: Leopard Seals, Orcas, Petrel </string>
+    <string name="habitat_antarctica">Habitat: Antarctica</string>
+    <string name="habitat_subantarctica_islands">Habitat: Subantarctica Islands</string>
+    <string name="habitat_australia">Habitat: Australia</string>
+
+    <!-- Emperor Penguin Information-->
+    <string name="ep_description">The Emperor Penguin is the largest known penguin species in the world.  </string>
+    <string name="ep_population">Population: 595,000 </string>
+    <string name="ep_height">Height: 144cm </string>
+    <string name="ep_weight">Weight: 22.7 kg - 45.4 kg </string>
+    <string name="ep_dive_depth">Dive Depth: 585 </string>
+    <string name="ep_swimspeed">Swim Speed: 11 KM </string>
+
+    <!-- King Penguin Information -->
+    <string name="kp_description">The King Penguin is the second largest penguin in the world. </string>
+    <string name="kp_population">Population: 2,300,000 </string>
+    <string name="kp_height">Height: 100cm </string>
+    <string name="kp_weight">Weight: 9 kg - 18 kg </string>
+    <string name="kp_dive_depth">Dive Depth: 100 metres </string>
+    <string name="kp_swimspeed">Swim Speed: 10 KM </string>
+
 
 
 </resources>

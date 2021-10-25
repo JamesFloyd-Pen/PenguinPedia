@@ -22,6 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
                 android:background="#3F51B5"
+                android:contentDescription='tools:ignore="ContentDescription'
                 app:srcCompat="@drawable/emperor_penguin_and_chick"
                 tools:srcCompat="@drawable/emperor_penguin_and_chick" />
 
@@ -49,6 +50,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription='tools:ignore="ContentDescription'
                 app:srcCompat="@android:drawable/arrow_down_float" />
 
             <TextView
@@ -64,8 +66,7 @@
                 android:layout_marginBottom="6dp"
                 android:gravity="center"
                 android:lineSpacingExtra="2sp"
-                android:text="The Emperor Penguin is the largest known penguin species in the world.
- " />
+                android:text="@string/ep_description" />
 
             <TextView
                 android:id="@+id/Location"
@@ -78,7 +79,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Habitat: Antarctica"
+                android:text="@string/habitat_antarctica"
                 android:textSize="30sp" />
 
             <TextView
@@ -92,7 +93,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Population: 595,000 "
+                android:text="@string/ep_population"
                 android:textSize="30sp" />
 
             <TextView
@@ -106,7 +107,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Height: 144cm "
+                android:text="@string/ep_height"
                 android:textSize="30sp" />
 
             <TextView
@@ -120,7 +121,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Weight: 22.7 kg - 45.4 kg "
+                android:text="@string/ep_weight"
                 android:textSize="30sp" />
 
             <TextView
@@ -134,7 +135,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Dive Depth: 585 m "
+                android:text="@string/ep_dive_depth"
                 android:textSize="30sp" />
 
             <TextView
@@ -148,7 +149,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Swim Speed: 11 KM "
+                android:text="@string/ep_swimspeed"
                 android:textSize="30sp" />
 
             <TextView
@@ -162,7 +163,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Diet: Fish, Krill, and Squid "
+                android:text="@string/large_penguin_diet"
                 android:textSize="30sp" />
 
             <TextView
@@ -190,7 +191,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Eggs Laid: One "
+                android:text="@string/egg_laid_one"
                 android:textSize="30sp" />
 
             <Button
