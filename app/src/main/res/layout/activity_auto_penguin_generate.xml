@@ -62,7 +62,7 @@
                 android:layout_marginBottom="6dp"
                 android:gravity="center"
                 android:lineSpacingExtra="2sp"
-                android:text="The King Penguin is the second largest penguin in the world." />
+                android:text="@string/kp_description" />
 
             <TextView
                 android:id="@+id/Location"
@@ -75,7 +75,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Habitat: Subantarctica Islands"
+                android:text="@string/habitat_subantarctica_islands"
                 android:textSize="30sp" />
 
             <TextView
@@ -89,7 +89,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Population: 2,300, 000 "
+                android:text="@string/kp_population"
                 android:textSize="30sp" />
 
             <TextView
@@ -103,7 +103,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Height: 100cm "
+                android:text="@string/kp_height"
                 android:textSize="30sp" />
 
             <TextView
@@ -117,7 +117,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Weight: 9 kg - 18 kg "
+                android:text="@string/kp_weight"
                 android:textSize="30sp" />
 
             <TextView
@@ -131,7 +131,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Dive Depth: 100 metres "
+                android:text="@string/kp_dive_depth"
                 android:textSize="30sp" />
 
             <TextView
@@ -145,7 +145,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Swim Speed: 10 KM "
+                android:text="@string/kp_swimspeed"
                 android:textSize="30sp" />
 
             <TextView
@@ -159,7 +159,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Diet: Fish, Krill, and Squid "
+                android:text="@string/large_penguin_diet"
                 android:textSize="30sp" />
 
             <TextView
@@ -187,7 +187,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="Eggs Laid: One "
+                android:text="@string/egg_laid_one"
                 android:textSize="30sp" />
 
             <Button
