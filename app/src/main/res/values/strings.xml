@@ -30,4 +30,9 @@
 
     <!-- string name="google_api_key">AIzaSyDENSnvenHl2rJ4t2cS2la-sdlFXEJFTBU</string -->
 
+    <!--Layout-->
+    <string name="donate">Donate</string>
+    <string name="large_penguin_predators">Predators: Leopard Seals, Orcas, Petrel </string>
+
+
 </resources>
